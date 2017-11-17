@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66EF79D21FBF4986009C945C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF79D11FBF4986009C945C /* AppDelegate.swift */; };
+		66EF79D41FBF4986009C945C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF79D31FBF4986009C945C /* ViewController.swift */; };
+		66EF79D71FBF4986009C945C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EF79D51FBF4986009C945C /* Main.storyboard */; };
+		66EF79D91FBF4986009C945C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EF79D81FBF4986009C945C /* Assets.xcassets */; };
+		66EF79DC1FBF4987009C945C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EF79DA1FBF4987009C945C /* LaunchScreen.storyboard */; };
+		66EF79E71FBF4987009C945C /* Pop_In_Kids_ClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF79E61FBF4987009C945C /* Pop_In_Kids_ClubTests.swift */; };
+		66EF79F21FBF4987009C945C /* Pop_In_Kids_ClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF79F11FBF4987009C945C /* Pop_In_Kids_ClubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66EF79E31FBF4987009C945C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66EF79C61FBF4986009C945C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EF79CD1FBF4986009C945C;
+			remoteInfo = "Pop In Kids Club";
+		};
+		66EF79EE1FBF4987009C945C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66EF79C61FBF4986009C945C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66EF79CD1FBF4986009C945C;
+			remoteInfo = "Pop In Kids Club";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66EF79CE1FBF4986009C945C /* Pop In Kids Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pop In Kids Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EF79D11FBF4986009C945C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66EF79D31FBF4986009C945C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66EF79D61FBF4986009C945C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66EF79D81FBF4986009C945C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66EF79DB1FBF4987009C945C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66EF79DD1FBF4987009C945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EF79E21FBF4987009C945C /* Pop In Kids ClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pop In Kids ClubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EF79E61FBF4987009C945C /* Pop_In_Kids_ClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pop_In_Kids_ClubTests.swift; sourceTree = "<group>"; };
+		66EF79E81FBF4987009C945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EF79ED1FBF4987009C945C /* Pop In Kids ClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pop In Kids ClubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EF79F11FBF4987009C945C /* Pop_In_Kids_ClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pop_In_Kids_ClubUITests.swift; sourceTree = "<group>"; };
+		66EF79F31FBF4987009C945C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66EF79CB1FBF4986009C945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EF79DF1FBF4987009C945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EF79EA1FBF4987009C945C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66EF79C51FBF4986009C945C = {
+			isa = PBXGroup;
+			children = (
+				66EF79D01FBF4986009C945C /* Pop In Kids Club */,
+				66EF79E51FBF4987009C945C /* Pop In Kids ClubTests */,
+				66EF79F01FBF4987009C945C /* Pop In Kids ClubUITests */,
+				66EF79CF1FBF4986009C945C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66EF79CF1FBF4986009C945C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66EF79CE1FBF4986009C945C /* Pop In Kids Club.app */,
+				66EF79E21FBF4987009C945C /* Pop In Kids ClubTests.xctest */,
+				66EF79ED1FBF4987009C945C /* Pop In Kids ClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66EF79D01FBF4986009C945C /* Pop In Kids Club */ = {
+			isa = PBXGroup;
+			children = (
+				66EF79D11FBF4986009C945C /* AppDelegate.swift */,
+				66EF79D31FBF4986009C945C /* ViewController.swift */,
+				66EF79D51FBF4986009C945C /* Main.storyboard */,
+				66EF79D81FBF4986009C945C /* Assets.xcassets */,
+				66EF79DA1FBF4987009C945C /* LaunchScreen.storyboard */,
+				66EF79DD1FBF4987009C945C /* Info.plist */,
+			);
+			path = "Pop In Kids Club";
+			sourceTree = "<group>";
+		};
+		66EF79E51FBF4987009C945C /* Pop In Kids ClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				66EF79E61FBF4987009C945C /* Pop_In_Kids_ClubTests.swift */,
+				66EF79E81FBF4987009C945C /* Info.plist */,
+			);
+			path = "Pop In Kids ClubTests";
+			sourceTree = "<group>";
+		};
+		66EF79F01FBF4987009C945C /* Pop In Kids ClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66EF79F11FBF4987009C945C /* Pop_In_Kids_ClubUITests.swift */,
+				66EF79F31FBF4987009C945C /* Info.plist */,
+			);
+			path = "Pop In Kids ClubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66EF79CD1FBF4986009C945C /* Pop In Kids Club */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EF79F61FBF4987009C945C /* Build configuration list for PBXNativeTarget "Pop In Kids Club" */;
+			buildPhases = (
+				66EF79CA1FBF4986009C945C /* Sources */,
+				66EF79CB1FBF4986009C945C /* Frameworks */,
+				66EF79CC1FBF4986009C945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pop In Kids Club";
+			productName = "Pop In Kids Club";
+			productReference = 66EF79CE1FBF4986009C945C /* Pop In Kids Club.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66EF79E11FBF4987009C945C /* Pop In Kids ClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EF79F91FBF4987009C945C /* Build configuration list for PBXNativeTarget "Pop In Kids ClubTests" */;
+			buildPhases = (
+				66EF79DE1FBF4987009C945C /* Sources */,
+				66EF79DF1FBF4987009C945C /* Frameworks */,
+				66EF79E01FBF4987009C945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66EF79E41FBF4987009C945C /* PBXTargetDependency */,
+			);
+			name = "Pop In Kids ClubTests";
+			productName = "Pop In Kids ClubTests";
+			productReference = 66EF79E21FBF4987009C945C /* Pop In Kids ClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66EF79EC1FBF4987009C945C /* Pop In Kids ClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66EF79FC1FBF4987009C945C /* Build configuration list for PBXNativeTarget "Pop In Kids ClubUITests" */;
+			buildPhases = (
+				66EF79E91FBF4987009C945C /* Sources */,
+				66EF79EA1FBF4987009C945C /* Frameworks */,
+				66EF79EB1FBF4987009C945C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66EF79EF1FBF4987009C945C /* PBXTargetDependency */,
+			);
+			name = "Pop In Kids ClubUITests";
+			productName = "Pop In Kids ClubUITests";
+			productReference = 66EF79ED1FBF4987009C945C /* Pop In Kids ClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66EF79C61FBF4986009C945C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chris Thompson";
+				TargetAttributes = {
+					66EF79CD1FBF4986009C945C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					66EF79E11FBF4987009C945C = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 66EF79CD1FBF4986009C945C;
+					};
+					66EF79EC1FBF4987009C945C = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 66EF79CD1FBF4986009C945C;
+					};
+				};
+			};
+			buildConfigurationList = 66EF79C91FBF4986009C945C /* Build configuration list for PBXProject "Pop In Kids Club" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66EF79C51FBF4986009C945C;
+			productRefGroup = 66EF79CF1FBF4986009C945C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66EF79CD1FBF4986009C945C /* Pop In Kids Club */,
+				66EF79E11FBF4987009C945C /* Pop In Kids ClubTests */,
+				66EF79EC1FBF4987009C945C /* Pop In Kids ClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66EF79CC1FBF4986009C945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EF79DC1FBF4987009C945C /* LaunchScreen.storyboard in Resources */,
+				66EF79D91FBF4986009C945C /* Assets.xcassets in Resources */,
+				66EF79D71FBF4986009C945C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EF79E01FBF4987009C945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EF79EB1FBF4987009C945C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66EF79CA1FBF4986009C945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EF79D41FBF4986009C945C /* ViewController.swift in Sources */,
+				66EF79D21FBF4986009C945C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EF79DE1FBF4987009C945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EF79E71FBF4987009C945C /* Pop_In_Kids_ClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66EF79E91FBF4987009C945C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EF79F21FBF4987009C945C /* Pop_In_Kids_ClubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66EF79E41FBF4987009C945C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66EF79CD1FBF4986009C945C /* Pop In Kids Club */;
+			targetProxy = 66EF79E31FBF4987009C945C /* PBXContainerItemProxy */;
+		};
+		66EF79EF1FBF4987009C945C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66EF79CD1FBF4986009C945C /* Pop In Kids Club */;
+			targetProxy = 66EF79EE1FBF4987009C945C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66EF79D51FBF4986009C945C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66EF79D61FBF4986009C945C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66EF79DA1FBF4987009C945C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66EF79DB1FBF4987009C945C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66EF79F41FBF4987009C945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66EF79F51FBF4987009C945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66EF79F71FBF4987009C945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pop In Kids Club/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Pop-In-Kids-Club";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66EF79F81FBF4987009C945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pop In Kids Club/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Pop-In-Kids-Club";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66EF79FA1FBF4987009C945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pop In Kids ClubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Pop-In-Kids-ClubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pop In Kids Club.app/Pop In Kids Club";
+			};
+			name = Debug;
+		};
+		66EF79FB1FBF4987009C945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pop In Kids ClubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Pop-In-Kids-ClubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pop In Kids Club.app/Pop In Kids Club";
+			};
+			name = Release;
+		};
+		66EF79FD1FBF4987009C945C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Pop In Kids ClubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Pop-In-Kids-ClubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pop In Kids Club";
+			};
+			name = Debug;
+		};
+		66EF79FE1FBF4987009C945C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Pop In Kids ClubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "flash.Pop-In-Kids-ClubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pop In Kids Club";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66EF79C91FBF4986009C945C /* Build configuration list for PBXProject "Pop In Kids Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EF79F41FBF4987009C945C /* Debug */,
+				66EF79F51FBF4987009C945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66EF79F61FBF4987009C945C /* Build configuration list for PBXNativeTarget "Pop In Kids Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EF79F71FBF4987009C945C /* Debug */,
+				66EF79F81FBF4987009C945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66EF79F91FBF4987009C945C /* Build configuration list for PBXNativeTarget "Pop In Kids ClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EF79FA1FBF4987009C945C /* Debug */,
+				66EF79FB1FBF4987009C945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66EF79FC1FBF4987009C945C /* Build configuration list for PBXNativeTarget "Pop In Kids ClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66EF79FD1FBF4987009C945C /* Debug */,
+				66EF79FE1FBF4987009C945C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66EF79C61FBF4986009C945C /* Project object */;
+}
